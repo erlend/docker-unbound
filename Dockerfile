@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM alpine:3.6
 MAINTAINER Erlend Finvåg <erlend.finvag@gmail.com>
 
 RUN apk add -U unbound && rm -rf /var/cache/apk/*
